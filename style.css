@@ -1,0 +1,92 @@
+body{
+    background-color: black;
+    color: black;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#corpo{
+    display: grid;
+    grid-template-columns: repeat(4);
+    column-gap:0;
+    gap: 0;
+    background-color: rgb(165, 165, 165);
+    width: 26%;
+    height: 58vh;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    position: relative;
+    left: 36%;
+    margin-top: 8%;
+    
+}
+#visor {
+    grid-column: span 4; /* O visor ocupa todas as colunas */
+    text-align: right;
+    padding: 10px;
+    font-size: 24px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    height: 4vh;
+    background: #f0f0f0;
+}
+.num {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    right: 20%;
+    position: relative;
+}
+ul li{
+    list-style-type: none;
+}
+.n{
+    background-color: aliceblue;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    width: 45px;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+}
+button{
+    border: none;
+}
+#operation{
+    background-color: rgb(156, 98, 231);
+    margin-bottom: 5px;
+    border-radius: 5px;
+    width: 45px;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+}
+#clear{
+    background-color:rgb(142, 50, 218) ;
+}
+.icon{
+    background-color: rgb(156, 98, 231);
+    color: white;
+    width: 45px;
+    height: 7vh;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.icon i {
+    font-size: 1rem; /* Ajuste o tamanho do ícone conforme necessário */
+    line-height: normal; /* Corrige alinhamento vertical */
+    display: block; /* Garante alinhamento dentro do Flexbox */
+}
+h1{
+    color: white;
+    text-align: center;
+}
